@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Source+Code+Pro:wght@300;400&family=Inter:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header,
+#footer {
+    height: 50px;
+}
+
+#header {
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 3%;
+}
+
+#logo,
+.copyright {
+    margin-left: 50px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #042b56;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Source Code Pro', sans-serif; */
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.social {
+    margin-right: 50px;
+}
+
+.icons {
+    display: flex;
+    gap: 0.5rem;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.fa-brands {
+    color: #fff;
+}
+
+.fa-brands:hover {
+    color: #258ffb;
+}
