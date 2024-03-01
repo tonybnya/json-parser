@@ -159,7 +159,7 @@ pre {
 #text-editor,
 #json-editor {
   width: calc(100% - 30px);
-  height: 600px;
+  height: 450px;
   border: none;
   outline: none;
   padding: 5px;
@@ -198,6 +198,10 @@ pre {
 }
 
 .fa-brands:hover {
+  scale: 1.1;
+}
+
+.fa-brands:hover {
   color: #258ffb;
 }
 
@@ -227,6 +231,6 @@ pre {
 
   #text-editor,
   #json-editor {
-    height: 200px;
+    height: 30vh;
   }
 }
