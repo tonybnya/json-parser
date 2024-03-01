@@ -46,6 +46,7 @@ li {
 .intro {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: -40px;
 }
 
 .subtitle a {
@@ -157,7 +158,7 @@ pre {
 #text-editor,
 #json-editor {
   width: calc(100% - 30px);
-  height: 700px;
+  height: 600px;
   border: none;
   outline: none;
   padding: 5px;
